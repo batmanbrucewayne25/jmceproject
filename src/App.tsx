@@ -57,12 +57,16 @@ import Alumini from "./components/alumini";
 import Icte from "./components/nba";
 import Coe from "./components/coe";
 import Cafeteria from "./components/cafeteria";
+import Board from "./components/board";
+import Grievence from "./components/grievence";
 
 
 
 const router = createBrowserRouter([
   { path: "/", element: <HomeThree /> },
   { path: "/home-2", element: <HomeTwo /> },
+  { path: "/boardmembers", element: <Board /> },
+  { path: "/grievance", element: <Grievence /> },
   // { path: "/homeone", element: <HomeOne /> },
   { path: "/home", element: <HomeThree /> },
   // { path: "/home-4", element: <HomeFour /> },

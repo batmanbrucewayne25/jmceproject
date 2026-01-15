@@ -46,11 +46,10 @@ const FooterThree = () => {
                                    <h3>Online Platform</h3>
                                 </div>
                                 <ul className="list-area">
-                                    <li><Link to="/courses">Coursers</Link></li>
-                                    <li><Link to="/courses">Master Class</Link></li>
-                                    <li><Link to="/courses">Skillcshare</Link></li>
-                                    <li><Link to="/courses">LinkedIn Learning</Link></li>
-                                    <li><Link to="/courses">Future Learn</Link></li>
+                                <li><a href="https://nptel.ac.in/" target="_blank" rel="noopener noreferrer"> NPTEL</a> </li>
+                                <li><a href="https://swayam.gov.in/" target="_blank" rel="noopener noreferrer"> SWAYAM</a> </li>
+                                <li><a href="https://www.mygreatlearning.com/" target="_blank" rel="noopener noreferrer"> Great Learning Academy</a> </li>
+                                
                                 </ul>
                             </div>
                         </div>

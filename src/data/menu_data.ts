@@ -61,6 +61,7 @@ const menu_data: DataType[] = [
 			{ link: "/about", title: "About JMEC" },
 			{ link: "/chairman", title: "Chairman's Message" },
 			{ link: "/principal", title: "Principal's Message" },
+			{ link: "/boardmembers", title: "Board Members" },
 			{ link: "/vision", title: "Vision and Mission" },
 			{ link: "/quality", title: "Quality Policy" }, 
 		],
@@ -177,13 +178,7 @@ const menu_data: DataType[] = [
 		has_dropdown: false,
 	},
 
-	{
-		id: 6,
-		title: "Grievance",
-		link: "/register",
-		icon: "",
-		has_dropdown: false,
-	},
+	
 	// {
 	// 	id: 6,
 	// 	title: "Placement",
@@ -237,6 +232,13 @@ const menu_data: DataType[] = [
 			{ link: "https://www.jmcerp.in/jmce/", title: "Staff ERP" },
 			{ link: "https://www.jmcerp.in/jmce/", title: "Students ERP" },
 		],
+	},
+	{
+		id: 6,
+		title: "Grievance",
+		link: "/grievance",
+		icon: "",
+		has_dropdown: false,
 	},
 	// {
 	// 	id: 11,
