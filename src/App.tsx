@@ -2,12 +2,13 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"; 
 // import HomeOne from "./components/homes/home";
 import Wrapper from "./layouts/Wrapper";
-// import HomeTwo from "./components/homes/home-2"; 
+import HomeTwo from "./components/homes/home-2"; 
 import HomeThree from "./components/homes/home-3";
 import Mech from "./components/homes/mech";
 import Cseai from "./components/homes/cseai";
 import Cse from "./components/homes/cse";
 import Cseds from "./components/homes/cseds";
+import Site from "./components/siteunder";
 import Mba from "./components/homes/mba";
 // import HomeFour from "./components/homes/home-4";
 // import HomeFive from "./components/homes/home-5";
@@ -61,7 +62,7 @@ import Cafeteria from "./components/cafeteria";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomeThree /> },
-  // { path: "/home-2", element: <HomeTwo /> },
+  { path: "/home-2", element: <HomeTwo /> },
   // { path: "/homeone", element: <HomeOne /> },
   { path: "/home", element: <HomeThree /> },
   // { path: "/home-4", element: <HomeFour /> },
@@ -92,6 +93,7 @@ const router = createBrowserRouter([
   // { path: "/faq", element: <Faq /> }, 
   // { path: "/sign-in", element: <SignIn /> }, 
   { path: "/register", element: <Register /> }, 
+  { path: "/siteunderconstruction", element: <Site /> }, 
   { path: "/contact", element: <Contact /> }, 
   { path: "/mech", element: <Mech /> }, 
   { path: "/cseai", element: <Cseai /> }, 

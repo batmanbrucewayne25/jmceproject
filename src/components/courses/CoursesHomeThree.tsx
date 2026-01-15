@@ -130,7 +130,7 @@ const CoursesHomeThree = () => {
                                 <div className="popular-courses-items bg-2">
                                     <div className="popular-thumb">
                                         <div className="post-box">
-                                            <Link to="/mech" className="post-cat">
+                                            <Link to="/siteunderconstruction" className="post-cat">
                                                 ME
                                             </Link>
                                         </div>
@@ -140,7 +140,7 @@ const CoursesHomeThree = () => {
                                     </div>
                                     <div className="content">
                                         <h4>
-                                            <Link to="/mech">
+                                            <Link to="/siteunderconstruction">
                                             Mechanical Engineering
                                             </Link>
                                         </h4>
@@ -152,7 +152,7 @@ const CoursesHomeThree = () => {
                                             <i className="fas fa-star"></i>
                                             {/* <span>(4.8/5 Reviews)</span> */}
                                         </div>
-                                        <Link to="/mech" className="link-btn">Read More <i className="far fa-chevron-double-right"></i></Link>
+                                        <Link to="/siteunderconstruction" className="link-btn">Read More <i className="far fa-chevron-double-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
