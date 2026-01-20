@@ -7,7 +7,7 @@ const TeamHomeTwo = () => {
         <div className="container">
           <div className="section-title text-center">
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Meet our Board Members
+              Meet our Board of Governance
             </h2>
           </div>
 
@@ -20,7 +20,7 @@ const TeamHomeTwo = () => {
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link to="#">Dr K.N. Abdul Kader Nihal</Link>
+                    <Link to="#">Dr. K.N. Abdul Kader Nihal</Link>
                   </h4>
                   <p>Chairman</p>
                 </div>
@@ -30,30 +30,18 @@ const TeamHomeTwo = () => {
 
           {/* ===== Other Board Members ===== */}
           <div className="row justify-content-center mb-5">
-            {/* <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
-              <div className="team-box-items style-2">
-                <div className="team-image">
-                  <img src="assets/img/own/01.jpg" alt="img" />
-                </div>
-                <div className="team-content">
-                  <h4>
-                    <Link to="#">Hajee M. J. Jamal Mohamed Bilal</Link>
-                  </h4>
-                  <p>President</p>
-                </div>
-              </div>
-            </div> */}
+           
 
             <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
               <div className="team-box-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/own/02.jpg" alt="img" />
+                  <img src="assets/img/own/8.jpeg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link to="#">Dr. A.K. Khaja Nazeemudeen</Link>
+                    <Link to="#">Hajee Dr. A.K. Khaja Nazeemudeen</Link>
                   </h4>
-                  <p>Secretary & Correspondent</p>
+                  <p>Secretary</p>
                 </div>
               </div>
             </div>
@@ -61,7 +49,7 @@ const TeamHomeTwo = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
               <div className="team-box-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/own/03.jpg" alt="img" />
+                  <img src="assets/img/own/9.jpeg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
@@ -72,21 +60,36 @@ const TeamHomeTwo = () => {
               </div>
             </div>
 
-            {/* <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+           
+          </div>
+          <div className="row justify-content-center mb-5">
+          <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
               <div className="team-box-items style-2">
                 <div className="team-image">
-                  <img src="assets/img/own/04.jpg" alt="img" />
+                  <img src="assets/img/own/tariq.svg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link to="#">Dr. K. Abdus Samad</Link>
+                    <Link to="#">Mr. R.K. Mehul tariq</Link>
                   </h4>
-                  <p>Assistant Secretary</p>
+                  <p>Executive Director</p>
                 </div>
               </div>
-            </div> */}
-          </div>
-
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+              <div className="team-box-items style-2">
+                <div className="team-image">
+                  <img src="assets/img/own/7.jpeg" alt="img" />
+                </div>
+                <div className="team-content">
+                  <h4>
+                    <Link to="#">Hajee Dr. K.N. Mohamed Fazil</Link>
+                  </h4>
+                  <p>Executive Director</p>
+                </div>
+              </div>
+            </div>
+            </div>
         </div>
       </section>
     </>

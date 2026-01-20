@@ -59,9 +59,9 @@ const menu_data: DataType[] = [
 		has_dropdown: true,
 		sub_menus: [
 			{ link: "/about", title: "About JMEC" },
+			{ link: "/boardmembers", title: "Board of Governance" },
 			{ link: "/chairman", title: "Chairman's Message" },
 			{ link: "/principal", title: "Principal's Message" },
-			{ link: "/boardmembers", title: "Board Members" },
 			{ link: "/vision", title: "Vision and Mission" },
 			{ link: "/quality", title: "Quality Policy" }, 
 		],
